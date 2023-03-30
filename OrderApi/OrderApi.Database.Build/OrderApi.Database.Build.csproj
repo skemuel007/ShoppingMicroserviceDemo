@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+	  <SqlServerVersion>SqlAzure</SqlServerVersion>
+  </PropertyGroup>
+
+	<ItemGroup>
+		<Content Remove="Scripts\**\*.sql" />
+		<None Include="Scripts\**\*.sql" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PostDeploy Include=".\Scripts\PostScripts\Script.PostDeployment.sql" />
+		<PostDeploy Include=".\Scripts\PreScripts\Script.PreDeployment.sql" />
+	</ItemGroup>
+
+</Project>
