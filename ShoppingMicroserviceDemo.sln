@@ -5,9 +5,11 @@ VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OrderApi", "OrderApi", "{FF7AB3EB-4AED-4164-95EB-1E597D973271}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderApi.Domain", "OrderApi\OrderApi.Domain\OrderApi.Domain.csproj", "{48AD0D3E-32D5-48E1-B00A-D6F03EFDBC42}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrderApi.Domain", "OrderApi\OrderApi.Domain\OrderApi.Domain.csproj", "{48AD0D3E-32D5-48E1-B00A-D6F03EFDBC42}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderApi.Data", "OrderApi\OrderApi.Data\OrderApi.Data.csproj", "{3F4C3E0D-7B1D-4F47-B310-18BACE483429}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrderApi.Data", "OrderApi\OrderApi.Data\OrderApi.Data.csproj", "{3F4C3E0D-7B1D-4F47-B310-18BACE483429}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderApi.Service", "OrderApi\OrderApi.Service\OrderApi.Service.csproj", "{536E2765-4541-485F-9F75-A9BD3F42F4BD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,6 +25,10 @@ Global
 		{3F4C3E0D-7B1D-4F47-B310-18BACE483429}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3F4C3E0D-7B1D-4F47-B310-18BACE483429}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3F4C3E0D-7B1D-4F47-B310-18BACE483429}.Release|Any CPU.Build.0 = Release|Any CPU
+		{536E2765-4541-485F-9F75-A9BD3F42F4BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{536E2765-4541-485F-9F75-A9BD3F42F4BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{536E2765-4541-485F-9F75-A9BD3F42F4BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{536E2765-4541-485F-9F75-A9BD3F42F4BD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -30,6 +36,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{48AD0D3E-32D5-48E1-B00A-D6F03EFDBC42} = {FF7AB3EB-4AED-4164-95EB-1E597D973271}
 		{3F4C3E0D-7B1D-4F47-B310-18BACE483429} = {FF7AB3EB-4AED-4164-95EB-1E597D973271}
+		{536E2765-4541-485F-9F75-A9BD3F42F4BD} = {FF7AB3EB-4AED-4164-95EB-1E597D973271}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {56F86B28-10CC-433A-A35E-2BF375368419}
